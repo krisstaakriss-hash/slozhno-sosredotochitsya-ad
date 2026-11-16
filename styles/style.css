@@ -8,12 +8,8 @@
   font-family: var(--main-font);
 }
 
-/* Общий класс для шапки и подвала (высота, отступы, уголки) */
 .decorated-zone {
-  position: relative;
-  height: 100vh;
   min-height: 668px;
-  padding: 10px;
 }
 
 .decorated-zone::before,
