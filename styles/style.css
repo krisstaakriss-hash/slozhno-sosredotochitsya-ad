@@ -9,6 +9,7 @@
 }
 
 .decorated-zone {
+  height: 100vh;
   min-height: 668px;
 }
 
@@ -34,14 +35,12 @@
   border-left: 1px solid var(--decor-color);
 }
 
-/* Сетка шапки */
 .header {
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   align-items: center;
 }
 
-/* Надпись REC с точкой */
 .header__rec {
   position: absolute;
   top: 10px;
@@ -64,7 +63,6 @@
   box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
-/* Меню переключения тем */
 .header__theme-menu {
   justify-self: end;
 }
@@ -107,7 +105,6 @@
   pointer-events: none;
 }
 
-/* Главный заголовок */
 .header__title {
   margin: 0;
   color: var(--title-color);
@@ -117,7 +114,6 @@
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
-/* Абзац на розовом фоне */
 .header__text {
   margin: 0;
   font-size: 18px;
