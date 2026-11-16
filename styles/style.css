@@ -174,7 +174,6 @@
 .section_list {
   display: grid;
   gap: 20px;
-  padding: 40px 10px;
 }
 
 .section_title {
@@ -205,7 +204,7 @@
 
 .card__text {
   font-size: 18px;
-  line-height: 23.4px;
+  line-height: 23.4pxpx;
 }
 
 .content_link {
@@ -219,8 +218,8 @@
 
 @media (width >= 768px) {
   .section {
-    grid-template-columns: 1fr 2fr;
-    padding: 45px 20px;
+    grid-template-columns: 236px 1fr;
+    gap: 20px;
   }
 }
 
@@ -232,7 +231,7 @@
 }
 
 .section_causes {
-  padding: 5px 10px;
+  padding: 10px 10px;
 }
 
 @media (width >= 768px) {
