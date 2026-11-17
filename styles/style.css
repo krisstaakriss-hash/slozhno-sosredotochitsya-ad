@@ -314,6 +314,10 @@
     grid-template-columns: 315px 1fr;
   }
 
+  .section_causes {
+    grid-template-columns: 1fr;
+  }
+
   .section_causes .section_title {
     max-width: 315px;
   }
